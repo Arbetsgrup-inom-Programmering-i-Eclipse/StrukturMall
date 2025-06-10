@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="StructureTemplate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Preview" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Version" type="xs:string" />
+            <xs:attribute name="ID" type="xs:string" />
+            <xs:attribute name="Type" type="xs:string" />
+            <xs:attribute name="ApprovalStatus" type="xs:string" />
+            <xs:attribute name="Diagnosis" type="xs:string" />
+            <xs:attribute name="TreatmentSite" type="xs:string" />
+            <xs:attribute name="Description" type="xs:string" />
+            <xs:attribute name="AssignedUsers" type="xs:string" />
+            <xs:attribute name="LastModified" type="xs:string" />
+            <xs:attribute name="ApprovalHistory" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Structures" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Structure" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TypeIndex" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+                    <xs:element name="ColorAndStyle" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+                    <xs:element name="SearchCTLow" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+                    <xs:element name="SearchCTHigh" type="xs:string" minOccurs="0" msdata:Ordinal="4" />
+                    <xs:element name="DVHLineStyle" type="xs:string" minOccurs="0" msdata:Ordinal="5" />
+                    <xs:element name="DVHLineColor" type="xs:string" minOccurs="0" msdata:Ordinal="6" />
+                    <xs:element name="DVHLineWidth" type="xs:string" minOccurs="0" msdata:Ordinal="7" />
+                    <xs:element name="EUDAlpha" type="xs:string" minOccurs="0" msdata:Ordinal="8" />
+                    <xs:element name="TCPAlpha" type="xs:string" minOccurs="0" msdata:Ordinal="9" />
+                    <xs:element name="TCPBeta" type="xs:string" minOccurs="0" msdata:Ordinal="10" />
+                    <xs:element name="TCPGamma" type="xs:string" minOccurs="0" msdata:Ordinal="11" />
+                    <xs:element name="Identification" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="VolumeID" type="xs:string" minOccurs="0" />
+                          <xs:element name="VolumeCode" type="xs:string" minOccurs="0" />
+                          <xs:element name="VolumeType" type="xs:string" minOccurs="0" />
+                          <xs:element name="VolumeCodeTable" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="ID" type="xs:string" />
+                  <xs:attribute name="Name" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="Version" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="StructureTemplate" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureTemplate Version="1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Preview Version="1.2" ID="Palliation Helhjärna" Type="Structure" ApprovalStatus="Approved" Diagnosis="" TreatmentSite="" Description="Ny färgsättning enligt nationell standard från oktober 2017" AssignedUsers="dltvmast\a2t7r" LastModified=" February 21 2025 11:16:09:152" ApprovalHistory="dltvmast\a2t7r Created [ February 22 2019 14:40:35:222 ];dltvmast\a2t7r Approved [ November 05 2019 16:39:53:030 ];dltvmast\a34gd Reviewed [ February 21 2025 11:15:14:368 ];dltvmast\a34gd Approved [ February 21 2025 11:15:55:464 ]" />
+  <Structures>
+    <Structure ID="PTV1" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>PTV</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 0 0 255</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="CTV1" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>CTV</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 255 126 140</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="GTV1" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>GTV</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 139 0 0</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>5</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="Z_marker" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Cavity</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 27 255 15</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="Z_bone" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Organ</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 240 248 255</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="Z_protes" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Cavity</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 255 50 255</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="Lens_R" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Avoidance</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 0 168 168</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="Lens_L" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Avoidance</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 0 232 232</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="Hippocampus_R" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Avoidance</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 118 146 60</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="Hippocampus_L" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Avoidance</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 194 214 155</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="Eye_R" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Avoidance</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 0 147 0</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="Eye_L" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Avoidance</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 50 205 50</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="PRV_Hippocampu_R" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Avoidance</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 98 120 50</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+    <Structure ID="PRV_Hippocampu_L" Name="">
+      <Identification>
+        <VolumeID></VolumeID>
+        <VolumeCode></VolumeCode>
+        <VolumeType>Avoidance</VolumeType>
+        <VolumeCodeTable></VolumeCodeTable>
+      </Identification>
+      <TypeIndex>2</TypeIndex>
+      <ColorAndStyle>RGB 174 200 124</ColorAndStyle>
+      <SearchCTLow>1000</SearchCTLow>
+      <SearchCTHigh>1000</SearchCTHigh>
+      <DVHLineStyle>0</DVHLineStyle>
+      <DVHLineColor>-16777216</DVHLineColor>
+      <DVHLineWidth>1</DVHLineWidth>
+      <EUDAlpha xsi:nil="true"></EUDAlpha>
+      <TCPAlpha xsi:nil="true"></TCPAlpha>
+      <TCPBeta xsi:nil="true"></TCPBeta>
+      <TCPGamma xsi:nil="true"></TCPGamma>
+    </Structure>
+  </Structures>
+</StructureTemplate>
